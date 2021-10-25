@@ -1,0 +1,14 @@
+
+.number-btn:active {
+  background-color: hsl(var(--clr-white) / 0.5);
+}
+
+.function-btn:active {
+  background-color: hsl( var(--clr-white) / 0.80);
+}
+
+.symbol-btn:focus,
+.symbol-selected {
+  background-color: hsl( var(--clr-white));
+  color: hsl( var(--clr-accent));
+}

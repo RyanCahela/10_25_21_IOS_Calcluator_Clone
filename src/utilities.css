@@ -38,8 +38,6 @@ Color Utitlies
   background-color: hsl( var(--clr-accent));
 }
 
-
-
 /******************************
 Font Utitlies
 ******************************/
@@ -48,26 +46,24 @@ Font Utitlies
 .fs-400 { font-size: var(--fs-400); }
 
 
-
+/******************************
+Multi-line Utitlies
+******************************/
 .btn {
   aspect-ratio: var(--aspect-ratio, 1);
-  padding: var(--padding, 1rem);
   border-radius: 50%;
   border: none;
   cursor: pointer;
+  padding: 0 1rem;
   font-family: var(--ff-sans-serif);
-}
-
-.number-btn {
-  
-}
-
-.grid {
-  display: grid;
+  transition-property: background-color, color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out; 
 }
 
 .flex {
   display: flex;
+  align-items: flex-start;
   gap: var(--flex-gap, 1rem);
 }
 
