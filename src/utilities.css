@@ -1,0 +1,7 @@
+.container {
+  max-width: 30rem;
+  margin-inline: auto;
+  padding: 1.5rem;
+}
+
+.ff-monospace {font-family: var(--ff-monospace)};
