@@ -9,8 +9,33 @@ Color Utitlies
 .font-white {
   color: hsl( var(--clr-white));
 }
+
+.font-black {
+  color: hsl( var(--clr-black));
+}
+
+.font-accent {
+  color: hsl( var(--clr-accent))
+}
+
 .bg-black {
   background-color: hsl( var(--clr-black) );
+}
+
+.bg-white {
+  background-color: hsl( var(--clr-white) );
+}
+
+.bg-dark {
+  background-color: hsl( var(--clr-dark) );
+}
+
+.bg-light {
+  background-color: hsl( var(--clr-light) );
+}
+
+.bg-accent {
+  background-color: hsl( var(--clr-accent));
 }
 
 
@@ -25,12 +50,24 @@ Font Utitlies
 
 
 .btn {
-  aspect-ratio: 1;
+  aspect-ratio: var(--aspect-ratio, 1);
   border-radius: 50%;
-  background-color: var(--btn-color, gray);
   border: none;
   cursor: pointer;
   font-family: var(--ff-sans-serif);
-  padding: 1rem;
+  padding: 2em;
+}
+
+.number-btn {
+  
+}
+
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+  gap: var(--flex-gap, 1rem);
 }
 
