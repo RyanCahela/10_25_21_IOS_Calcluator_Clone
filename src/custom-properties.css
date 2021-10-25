@@ -1,3 +1,14 @@
 :root {
+  /* Colors */
+  --clr-light: 0 0% 65%;
+  --clr-dark: 0 0% 20%;
+  --clr-accent: 36 99% 52%;
+  --clr-black: 0 0% 0%;
+  --clr-white: 0 0% 100%;
+
+
+
   --ff-monospace: Courier, monospace;
+  --ff-sans-serif: Helvetica, sans-serif;
+  --fs-400: 2rem;
 }

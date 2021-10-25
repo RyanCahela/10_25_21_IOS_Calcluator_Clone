@@ -3,5 +3,34 @@
   margin-inline: auto;
   padding: 1.5rem;
 }
+/******************************
+Color Utitlies
+******************************/
+.font-white {
+  color: hsl( var(--clr-white));
+}
+.bg-black {
+  background-color: hsl( var(--clr-black) );
+}
 
-.ff-monospace {font-family: var(--ff-monospace)};
+
+
+/******************************
+Font Utitlies
+******************************/
+.ff-monospace { font-family: var(--ff-monospace); }
+.ff-sans-serif { font-family: var(--ff-sans-serif); }
+.fs-400 { font-size: var(--fs-400); }
+
+
+
+.btn {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: var(--btn-color, gray);
+  border: none;
+  cursor: pointer;
+  font-family: var(--ff-sans-serif);
+  padding: 1rem;
+}
+
