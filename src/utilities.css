@@ -2,6 +2,7 @@
   max-width: 30rem;
   margin-inline: auto;
   padding: 1.5rem;
+  border: 2px solid dimgray
 }
 /******************************
 Color Utitlies
@@ -43,7 +44,12 @@ Font Utitlies
 ******************************/
 .ff-monospace { font-family: var(--ff-monospace); }
 .ff-sans-serif { font-family: var(--ff-sans-serif); }
+.fs-500 { font-size: var(--fs-500); }
 .fs-400 { font-size: var(--fs-400); }
+.fs-300 { font-size: var(--fs-300); }
+.fs-200 { font-size: var(--fs-200); }
+.fs-100 { font-size: var(--fs-100); }
+.fw-thin { font-weight: 200; }
 
 
 /******************************
@@ -74,5 +80,9 @@ Multi-line Utitlies
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.grid {
+  display: grid;
 }
 

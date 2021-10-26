@@ -8,5 +8,9 @@
 
   --ff-monospace: Courier, monospace;
   --ff-sans-serif: Helvetica, sans-serif;
+  --fs-500: 3rem;
   --fs-400: 2rem;
+  --fs-300: 1.25rem;
+  --fs-200: 1rem;
+  --fs-100: 0.5rem; 
 }
