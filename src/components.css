@@ -12,3 +12,10 @@
   background-color: hsl( var(--clr-white));
   color: hsl( var(--clr-accent));
 }
+
+.clear-btn-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

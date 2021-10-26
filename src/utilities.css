@@ -58,12 +58,21 @@ Multi-line Utitlies
   font-family: var(--ff-sans-serif);
   transition-property: background-color, color;
   transition-duration: 0.2s;
-  transition-timing-function: ease-out; 
+  transition-timing-function: ease-out;
+  position: relative;
+  width: 3rem;
 }
 
 .flex {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: var(--flex-gap, 1rem);
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
